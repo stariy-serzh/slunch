@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="slunch">
+      <div class="wrapper" id="wrapper" style="background-position: 0% 114%;">
+        <div class="header">
+          <div class="start-title">
+            <a href="" class="start-title-a"
+              ><span class="start-title-underline"
+                >Бизнес-ланчи в Витебске</span
+              ></a
+            >
+            <a href="" class="slunch-logo"
+              ><img
+                src="https://vitebsk.biz/source/front/start/i/lunch/carte.svg"
+                alt=""
+            /></a>
+          </div>
+          <div class="start-widget-nav">
+            <i class="start-widget-nav-i left ease-opacity inactive" id="start-widget-nav-i left" onclick="slideLeft()"></i>
+            <i class="start-widget-nav-i rigth ease-opacity active" id="start-widget-nav-i rigth" onclick="slideRigth()"></i>
+          </div>
+        </div>
+        <div class="slunch-items">
+          <div class="slunch-scroll" id="scroll" style="transform: translateX(0%);">
+            <div class="slunch-item">
+              <a
+                href=""
+                class="slunch-img layout-box"
+                style="
+                  background-image: url(https://carte.by/source/photos/2019/02/07/e1d9a67510caa5aca0de8ac2017e5c3c_p.jpg);
+                "
+              >
+                <i class="gradient-brown slunch-img-gradient ease-opacity"></i>
+                <span class="slunch-company">
+                  <span class="slunch-company-wrap">Кофе брейк</span>
+                </span>
+                <span class="slunch-address map" data-lat="55.181354" data-title="Zdoba" data-address="Витебск, пр-т Московский, 20" data-url="//zdoba.vitebsk.biz/" data-lng="30.212948" data-zoom="14">Витебск, пр-т Московский, 20</span>
+              </a>
+              <ul class="slunch-menu">
+                <li class="slunch-menu-item" data-type="a" data-dishes="462603">
+                  <span class="slunch-dish ">Курица «По-тайски»&nbsp;на&nbsp;выбор</span>
+                  <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+                </li>
+                <li class="slunch-menu-item" data-type="s" data-dishes="462604">
+                  <span class="slunch-dish ">Салат с&nbsp;копчёной куриной грудкой&nbsp;на&nbsp;выбор</span>
+                  <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+              </li>
+              <li class="slunch-menu-item" data-type="m" data-dishes="462605">
+                <span class="slunch-dish ">Чай&nbsp;или&nbsp;морс</span>
+                <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+              </li>
+              </ul>
+              <div class="slunch-price ease-background">
+                          8,70 р
+                      </div>
+            </div>
+            <div class="slunch-item" data-id="32">
+
+              <a href="//liamus.vitebsk.biz/" class="slunch-img layout-box" style="background-image: url(https://carte.by/source/photos/2015/11/30/liamus_p.jpg)">
+    
+                <i class="gradient-brown slunch-img-gradient ease-opacity"></i>
+                <span class="slunch-company"><span class="slunch-company-wrap">Лямус</span></span>  
+                <span class="slunch-address map" data-lat="55.17651670305746" data-title="Лямус" data-address="Витебск, пр-т&nbsp;Победы,&nbsp;1" data-url="//liamus.vitebsk.biz/" data-lng="30.226542949676517" data-zoom="18">Витебск, пр-т&nbsp;Победы,&nbsp;1</span>
+                <span class="slunch-time">12:00 − 16:00</span>
+                          </a>
+              <ul class="slunch-menu">
+                  <li class="slunch-menu-item" data-type="a" data-dishes="425974">
+                      <span class="slunch-dish ">Салат из&nbsp;капусты «По-королевски»</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+                  </li>
+                  <li class="slunch-menu-item" data-type="s" data-dishes="425975">
+                      <span class="slunch-dish ">Рассольник «Ленинградский» с&nbsp;мясом и&nbsp;сметаной</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+                  </li>
+                  <li class="slunch-menu-item" data-type="m" data-dishes="425976">
+                      <span class="slunch-dish ">Котлета «По-домашнему»</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+                  </li>
+                  </ul>
+              <div class="slunch-price ease-background">8,35 р</div>
+            </div>
+            <div class="slunch-item" data-id="505">
+
+              <a href="//gorod.vitebsk.biz/" class="slunch-img layout-box" style="background-image: url(https://carte.by/source/photos/2017/03/22/gorod_p.jpg)">
+    
+                              <i class="gradient-brown slunch-img-gradient ease-opacity"></i>
+                
+                <span class="slunch-company"><span class="slunch-company-wrap">Город</span></span>
+    
+                              <span class="slunch-address map" data-lat="55.1805462454359" data-title="Город" data-address="Витебск, ул.&nbsp;Смоленская,&nbsp;3/1" data-url="//gorod.vitebsk.biz/" data-lng="30.230523347854614" data-zoom="14">Витебск, ул.&nbsp;Смоленская,&nbsp;3/1</span>
+                          </a>
+              <ul class="slunch-menu">
+                  <li class="slunch-menu-item" data-type="a" data-dishes="464191">
+                      <span class="slunch-dish change">Филе индейки&nbsp;заливное</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price="2,30">2,30</span>
+                  </li>
+                  <li class="slunch-menu-item" data-type="s" data-dishes="409162">
+                      <span class="slunch-dish change">Борщ холодный со&nbsp;сметаной</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price="1,30">1,30</span>
+                  </li>
+                  <li class="slunch-menu-item" data-type="m" data-dishes="435438">
+                      <span class="slunch-dish change">Филе птицы «По-королевски», каша перловая с&nbsp;шампиньонами</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price="4,30">4,30</span>
+                  </li></ul>
+              <div class="slunch-price ease-background">7,90 р</div>
+            </div>    
+            <div class="slunch-item" data-id="1143">
+
+              <a href="//amsterdam.vitebsk.biz/" class="slunch-img layout-box" style="background-image: url(https://carte.by/source/photos/2015/12/15/amsterdam_p.JPG)">
+                <i class="gradient-brown slunch-img-gradient ease-opacity"></i>
+                <span class="slunch-company"><span class="slunch-company-wrap">Амстердам</span></span>
+                              <span class="slunch-address map" data-lat="55.15982421803105" data-title="Амстердам" data-address="Витебск, Бешенковичское шоссе, 3-1" data-url="//amsterdam.vitebsk.biz/" data-lng="30.16633272171021" data-zoom="16">Витебск, Бешенковичское шоссе, 3-1</span>
+                              <span class="slunch-time">11:00 − 16:00</span>
+                          </a>
+              <ul class="slunch-menu">
+                  <li class="slunch-menu-item" data-type="a" data-dishes="361069">
+                      <span class="slunch-dish ">Салат из&nbsp;огурцов</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+                  </li>
+                  <li class="slunch-menu-item" data-type="s" data-dishes="361070">
+                      <span class="slunch-dish ">Суп перловый с&nbsp;грибами</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+                  </li>
+                  <li class="slunch-menu-item" data-type="m" data-dishes="361071">
+                      <span class="slunch-dish ">Пельмени с&nbsp;мясом, запечённые с&nbsp;беконом, чай чёрный&nbsp;байховый</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span></li></ul>
+              <div class="slunch-price ease-background">7,00 р</div>
+            </div>
+            <div class="slunch-item" data-id="1996">
+              <a href="//brevis.vitebsk.biz/" class="slunch-img layout-box" style="background-image: url(https://carte.by/source/photos/2016/11/25/brevis_p.jpg)">
+                              <i class="gradient-brown slunch-img-gradient ease-opacity"></i>
+                <span class="slunch-company"><span class="slunch-company-wrap">Brevis</span></span>
+                              <span class="slunch-address map" data-lat="55.186469" data-title="Brevis" data-address="Витебск, пр-д Гоголя, 11" data-url="//brevis.vitebsk.biz/" data-lng="30.202896" data-zoom="16">Витебск, пр-д Гоголя, 11</span>
+                              <span class="slunch-time">12:00 − 15:00</span>
+                          </a>
+              <ul class="slunch-menu">
+                  <li class="slunch-menu-item" data-type="a" data-dishes="471832">
+                      <span class="slunch-dish ">Салат «Картофельный с&nbsp;грибами»</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+                  </li>
+                  <li class="slunch-menu-item" data-type="s" data-dishes="471833">
+                      <span class="slunch-dish ">Суп из&nbsp;птицы с&nbsp;овощами</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span>
+                  </li>
+                  <li class="slunch-menu-item" data-type="m" data-dishes="471834">
+                      <span class="slunch-dish ">Шницель натуральный рубленый, макароны с&nbsp;маслом; хлеб;&nbsp;компот</span>
+                      <span class="slunch-dish-price" title="Стоимость блюда" data-price=""></span></li></ul>
+              <div class="slunch-price ease-background">8,00 р</div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
